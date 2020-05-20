@@ -23,23 +23,19 @@ $ npm install -g tailwind-ng-test-diff
 $ ng-test-diff
 ```
 
-or pass in the path of the workspace
+Or pass in the path of the workspace.
 
 ```sh
 $ ng-test-diff c:/myworkspace
 ```
 
-then run your tests. You could even run
+You can also have ng-test-diff watch for changes with the watch flag -w which updates test.ts files after any file changes
 
 ```sh
-$ ng-test-diff | ng test
+$ ng-test-diff -w -- c:/myworkspace
 ```
-ng-test-diff can be run multiple times.
+
+When the *.ts files are reverted or there are no longer any modified files, the test.ts file(s) are changed back to use the standard /\\.spec\\.ts$/ pattern.
 
 ## Remember
 Do not commit the modified test.ts files!
-
-## Comming Soon
-File watching
-
-More file comparison options
