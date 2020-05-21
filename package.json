@@ -1,7 +1,7 @@
 {
-  "name": "tailwind-test-diff",
+  "name": "tailwind-ng-test-diff",
   "version": "1.0.0",
-  "description": "Configures Jasmine to only test changed code or tests in an Angular workspace",
+  "description": "Configures Karma to only test changed code or tests in an Angular workspace",
   "main": "index.js",
   "bin": {
     "ng-test-diff": "index.js"
