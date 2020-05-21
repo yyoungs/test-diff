@@ -1,0 +1,45 @@
+{
+  "name": "tailwind-test-diff",
+  "version": "1.0.0",
+  "description": "Configures Jasmine to only test changed code or tests in an Angular workspace",
+  "main": "index.js",
+  "bin": {
+    "ng-test-diff": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "Neil Young",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.4.0",
+    "colors": "^1.4.0",
+    "lodash.debounce": "^4.0.8",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyoungs/test-diff.git"
+  },
+  "keywords": [
+    "angular",
+    "karma",
+    "test",
+    "speed",
+    "unit",
+    "tests"
+  ],
+  "bugs": {
+    "url": "https://github.com/yyoungs/test-diff/issues"
+  },
+  "homepage": "https://github.com/yyoungs/test-diff#readme"
+}
